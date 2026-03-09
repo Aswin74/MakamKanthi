@@ -86,7 +86,7 @@ const Navbar = () => {
               <span className="text-mk-gold mx-1">·</span>
               <span className="text-mk-white">{shopName.split(" ")[1]}</span>
             </p>
-            <span className="text-mk-muted hidden text-[9px] tracking-[0.2em] uppercase md:block">
+            <span className="text-mk-muted text-[0.4em] tracking-[0.2em] uppercase md:text-[9px]">
               {shopDescription}
             </span>
           </div>
