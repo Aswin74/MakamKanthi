@@ -29,6 +29,12 @@
 
 @layer base {
   body {
-    @apply bg-mk-white;
+    @apply bg-mk-white text-mk-black font-inter;
+  }
+}
+
+@layer components {
+  .bg-gradient {
+    @apply from-mk-primary-dark via-mk-primary to-mk-black bg-linear-to-r;
   }
 }
