@@ -1,1 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 @import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+
+  --color-mk-primary: #2d6a2f;
+  --color-mk-primary-light: #3d8b40; /* hover states */
+  --color-mk-primary-dark: #1e4a20; /* footer, deep sections */
+
+  --color-mk-secondary: #5cb85c;
+  --color-mk-secondary-light: #7dcf7d;
+
+  --color-mk-text: #6b7280; /* body/paragraph text */
+
+  --color-mk-gold: #c9a84c;
+  --color-mk-rose: #f2c4ce;
+  --color-mk-gray: #e5e7eb;
+  --color-mk-muted: #a8d5a2;
+
+  --color-mk-white: #faf8f3;
+  --color-mk-black: #0f172a;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply bg-mk-white;
+  }
+}
