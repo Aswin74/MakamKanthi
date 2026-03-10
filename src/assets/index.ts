@@ -24,6 +24,9 @@ import MehndiDesigning from "./services/Mehndi Designing.jpeg"
 import Pedicure from "./services/Pedicure.jpeg"
 import SareeDraping from "./services/Saree drapping.jpeg"
 
+// extras
+import Girl from "./Girl.png"
+
 export {
   Award1,
   Award2,
@@ -35,6 +38,7 @@ export {
   AwardMain,
   BlowDry,
   Facials,
+  Girl,
   HairColour,
   HairCut,
   HeadMassage,
