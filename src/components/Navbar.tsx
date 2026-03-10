@@ -55,7 +55,7 @@ const Navbar = () => {
         className={`fixed top-0 right-0 left-0 z-50 flex items-center justify-between px-4 transition-all duration-500 lg:px-8 ${
           scrolled
             ? "bg-mk-black/90 shadow-mk-primary/10 border-mk-primary/20 border-b py-2 shadow-lg backdrop-blur-md"
-            : "bg-gradient py-3 lg:py-2"
+            : "bg-transparent py-3 lg:py-2"
         }`}
         role="navigation"
         aria-label="Main Navigation"
@@ -68,13 +68,13 @@ const Navbar = () => {
         >
           <div className="relative">
             <motion.div
-              className="bg-mk-secondary/20 absolute inset-0 rounded-full blur-md"
+              className="bg-mk-secondary/30 absolute inset-0 rounded-full blur-md"
               animate={{ scale: [1, 1.2, 1] }}
               transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
             />
             <img
               src={MK_Logo}
-              className="relative h-9 w-9 rounded-full object-cover md:h-11 md:w-11 lg:h-12 lg:w-12"
+              className={`relative h-9 w-9 rounded-full object-cover md:h-11 md:w-11 lg:h-12 lg:w-12`}
               alt="Makamkanthi Logo"
             />
           </div>
@@ -123,10 +123,9 @@ const Navbar = () => {
             href="#contact"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.6, duration: 0.4 }}
-            whileHover={{ scale: 1.05, backgroundColor: "#3d8b40" }}
+            whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
-            className="bg-mk-primary text-mk-white shadow-mk-primary/40 border-mk-secondary/30 ml-4 rounded-full border px-5 py-2 text-sm font-semibold shadow-md transition-colors duration-200"
+            className="btn btn-primary"
             aria-label="Contact us"
           >
             Contact Us Now

@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
 
 @import "tailwindcss";
 
 @theme {
   --font-inter: "Inter", sans-serif;
+  --font-tangerine: "Tangerine", cursive;
 
   --color-mk-primary: #2d6a2f;
   --color-mk-primary-light: #3d8b40; /* hover states */
@@ -37,4 +39,21 @@
   .bg-gradient {
     @apply from-mk-primary-dark via-mk-primary to-mk-black bg-linear-to-r;
   }
+  /* buttons */
+  .btn {
+    @apply ml-4 rounded-full border px-5 py-2 text-sm font-semibold shadow-md transition-colors duration-200;
+  }
+  .btn.btn-primary {
+    @apply bg-mk-primary text-mk-white shadow-mk-primary/40 border-mk-secondary/30 hover:bg-mk-primary/90;
+  }
+  .btn.btn-gold {
+    @apply bg-mk-gold text-mk-white shadow-mk-gold/30 border-mk-gold/50 hover:bg-mk-gold/90;
+  }
+  .btn.btn-white {
+    @apply border-mk-white/20 bg-mk-white/10 text-mk-white hover:bg-mk-white/20;
+  }
+
+  /* .mk-text-stroke {
+    -webkit-text-stroke: 1px #faf8f3;
+  } */
 }
