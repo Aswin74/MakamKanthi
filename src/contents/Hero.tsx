@@ -48,7 +48,7 @@ const Hero = () => {
 
         {/* Main Heading */}
         <motion.h1
-          className="font-tangerine text-mk-white z-10 text-7xl leading-none font-bold tracking-wide capitalize md:text-8xl lg:text-[6.2rem]"
+          className="font-tangerine text-mk-white z-10 text-6xl leading-none font-bold tracking-wide capitalize md:text-8xl lg:text-[6.2rem]"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.35, ease: [0.22, 1, 0.36, 1] }}
@@ -103,7 +103,7 @@ const Hero = () => {
 
         {/* Buttons */}
         <motion.div
-          className="flex flex-wrap items-center gap-3"
+          className="flex items-center gap-2"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.9 }}
