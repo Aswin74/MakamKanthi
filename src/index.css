@@ -33,6 +33,10 @@
   body {
     @apply bg-mk-white text-mk-black font-inter;
   }
+
+  h2 {
+    @apply text-[1.9rem] font-bold tracking-wide lg:text-[2.5rem];
+  }
 }
 
 @layer components {
@@ -53,7 +57,7 @@
     @apply border-mk-white/20 bg-mk-white/10 text-mk-white hover:bg-mk-white/20;
   }
 
-  /* .mk-text-stroke {
-    -webkit-text-stroke: 1px #faf8f3;
-  } */
+  .mk-section {
+    @apply p-6;
+  }
 }

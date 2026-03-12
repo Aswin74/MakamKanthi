@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react"
 import { MK_Logo } from "../assets"
-import { shopDescription, shopName } from "../constants/language"
+import { shopDescription, shopName } from "../constants"
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 

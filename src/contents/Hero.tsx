@@ -1,5 +1,5 @@
 import { Girl, MK_Logo } from "../assets"
-import { shopName } from "../constants/language"
+import { shopName } from "../constants"
 import { motion } from "framer-motion"
 
 const Hero = () => {
