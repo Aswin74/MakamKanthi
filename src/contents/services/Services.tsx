@@ -10,7 +10,7 @@ const Services = () => {
       role="region"
       aria-labelledby="services-heading"
       id="services"
-      className="mk-section bg-mk-rose/30 relative flex min-h-screen scroll-mt-12 flex-col overflow-hidden md:scroll-mt-14 lg:scroll-mt-16"
+      className="mk-section bg-mk-rose/30 flex flex-col overflow-hidden"
     >
       {/* background decoration */}
       <div

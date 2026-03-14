@@ -64,8 +64,7 @@
   .btn.btn-white {
     @apply border-mk-white/20 bg-mk-white/10 text-mk-white hover:bg-mk-white/20;
   }
-
   .mk-section {
-    @apply p-8 md:px-10 md:py-4;
+    @apply relative min-h-screen scroll-mt-12 p-8 md:scroll-mt-14 md:px-10 md:py-4 lg:scroll-mt-16;
   }
 }
