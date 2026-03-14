@@ -1,7 +1,7 @@
 import Lottie from "lottie-react"
 import { motion } from "motion/react"
-import { GirlEyes } from "../assets/lottie"
-import { SERVICES } from "../constants"
+import { GirlEyes } from "../../assets/lottie"
+import { SERVICES } from "../../constants"
 
 const Services = () => {
   return (

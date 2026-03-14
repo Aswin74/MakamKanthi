@@ -1,6 +1,6 @@
-import Hero from "./contents/Hero"
 import Navbar from "./components/Navbar"
-import Services from "./contents/Services"
+import Hero from "./contents/hero/Hero"
+import Services from "./contents/services/Services"
 
 function App() {
   return (
