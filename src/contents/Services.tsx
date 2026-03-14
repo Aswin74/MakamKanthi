@@ -62,7 +62,7 @@ const Services = () => {
           <h3 className="font-tangerine text-mk-primary-dark mb-4">
             Curated Care for Every You
           </h3>
-          <p className="text-mk-text max-w-md leading-7">
+          <p className="text-mk-text max-w-md">
             Trends come and go, but true style is timeless. Our menu is designed
             to celebrate your individuality, offering bespoke beauty solutions
             that make you feel as incredible as you look. Step in, relax, and

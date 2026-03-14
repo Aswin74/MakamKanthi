@@ -35,11 +35,15 @@
   }
 
   h2 {
-    @apply text-[2.5rem] font-extrabold tracking-wide md:text-6xl lg:text-[4.5rem];
+    @apply text-[min(10vw,4.5rem)] font-extrabold tracking-wide;
   }
 
   h3 {
-    @apply text-4xl font-semibold tracking-wide lg:text-5xl;
+    @apply text-[min(7.5vw,3rem)] font-semibold tracking-wide;
+  }
+
+  p {
+    @apply text-sm text-[min(2.8vw,1rem)] leading-6 md:leading-7;
   }
 }
 
