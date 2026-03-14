@@ -1,4 +1,6 @@
+import Lottie from "lottie-react"
 import { motion } from "motion/react"
+import { GirlEyes } from "../assets/lottie"
 import { SERVICES } from "../constants"
 
 const Services = () => {
@@ -7,16 +9,12 @@ const Services = () => {
       role="region"
       aria-labelledby="services-heading"
       id="services"
-      className="mk-section bg-mk-gray relative flex min-h-screen scroll-mt-12 flex-col overflow-hidden md:scroll-mt-14 lg:scroll-mt-16"
+      className="mk-section bg-mk-rose/30 relative flex min-h-screen scroll-mt-12 flex-col overflow-hidden md:scroll-mt-14 lg:scroll-mt-16"
     >
       {/* background decoration */}
       <div
         aria-hidden="true"
         className="bg-mk-secondary/20 pointer-events-none absolute -top-20 -right-20 h-96 w-96 rounded-full blur-3xl"
-      />
-      <div
-        aria-hidden="true"
-        className="bg-mk-gold/20 pointer-events-none absolute -bottom-10 -left-10 h-72 w-72 rounded-full blur-3xl"
       />
 
       {/* Heading */}
@@ -59,7 +57,7 @@ const Services = () => {
           viewport={{ once: true }}
           className="lg:border-r-mk-gold/30 flex flex-col justify-center p-2 md:p-4 lg:border-r"
         >
-          <h3 className="font-tangerine text-mk-primary-dark mb-4">
+          <h3 className="font-tangerine text-mk-primary-dark">
             Curated Care for Every You
           </h3>
           <p className="text-mk-text max-w-md">
@@ -76,6 +74,11 @@ const Services = () => {
             whileInView={{ width: 300 }}
             transition={{ duration: 0.6, delay: 0.4 }}
             viewport={{ once: true }}
+          />
+
+          <Lottie
+            className="h-80 self-center md:h-96 md:self-start"
+            animationData={GirlEyes}
           />
         </motion.div>
 
@@ -97,12 +100,12 @@ const Services = () => {
                 ease: [0.22, 1, 0.36, 1],
               }}
               viewport={{ once: true }}
-              className="group flex flex-col items-center gap-2"
+              className="group flex flex-col items-center"
             >
               {/* Image */}
               <motion.div
                 className="border-mk-white group-hover:border-mk-secondary/60 relative rounded-full border-2 p-1 transition-colors duration-300"
-                whileHover={{ scale: 1.06 }}
+                whileHover={{ scale: 1.1 }}
                 transition={{ type: "spring", stiffness: 300, damping: 20 }}
               >
                 {/* Glow on hover */}
@@ -113,7 +116,7 @@ const Services = () => {
                 <img
                   src={item.imgURL}
                   alt={`${item.name} service at Makamkanthi`}
-                  className="relative h-24 w-24 rounded-full object-cover md:h-28 md:w-28"
+                  className="pointer-events-none relative h-24 w-24 rounded-full object-cover md:h-28 md:w-28"
                 />
               </motion.div>
 

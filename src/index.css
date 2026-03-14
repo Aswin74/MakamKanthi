@@ -66,6 +66,6 @@
   }
 
   .mk-section {
-    @apply p-8 md:p-10;
+    @apply p-8 md:px-10 md:py-4;
   }
 }
