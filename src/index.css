@@ -34,6 +34,13 @@
     @apply bg-mk-white text-mk-black font-inter;
   }
 
+  ::-webkit-scrollbar {
+    @apply bg-mk-black w-2.5;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-mk-gray/10 rounded-full;
+  }
+
   h2 {
     @apply text-[min(10vw,4.5rem)] font-extrabold tracking-wide;
   }
