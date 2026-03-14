@@ -7,6 +7,7 @@ import {
   Award6,
   AwardCertificate,
   AwardMain,
+  MK_Logo,
   MK_Poster,
 } from "../../assets"
 import Header from "../../components/Header"
@@ -48,8 +49,13 @@ const About = () => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           viewport={{ once: true }}
-          className="bg-mk-white flex min-w-0 flex-col rounded-2xl p-2 md:p-4 lg:place-self-center lg:bg-transparent lg:p-4"
+          className="bg-mk-white relative flex min-w-0 flex-col rounded-2xl p-2 md:p-4 lg:place-self-center lg:bg-transparent lg:p-4"
         >
+          <img
+            src={MK_Logo}
+            className="absolute top-0 bottom-0 z-0 opacity-5"
+          />
+
           {/* Gold text above */}
           <motion.p
             initial={{ opacity: 0 }}

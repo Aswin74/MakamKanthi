@@ -31,7 +31,7 @@
 
 @layer base {
   body {
-    @apply bg-mk-white text-mk-black font-inter;
+    @apply bg-mk-white text-mk-black font-inter selection:bg-mk-primary/90 selection:text-mk-gold;
   }
 
   ::-webkit-scrollbar {
