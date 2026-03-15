@@ -11,6 +11,7 @@ import {
   MK_Poster,
 } from "../../assets"
 import Header from "../../components/Header"
+import { shopName } from "../../constants"
 import MarqueeRow from "./MarqueeRow"
 
 // image url rows
@@ -53,7 +54,7 @@ const About = () => {
         >
           <img
             src={MK_Logo}
-            className="absolute top-0 bottom-0 z-0 opacity-5"
+            className="pointer-events-none absolute top-0 bottom-0 z-0 opacity-5"
           />
 
           {/* Gold text above */}
@@ -74,7 +75,7 @@ const About = () => {
             <strong className="text-mk-secondary">Anitha Bose</strong> has
             believed that beauty is more than a service—it’s a transformation of
             confidence. Since founding{" "}
-            <strong className="text-mk-secondary">Makam Kanthi</strong> in 2003,
+            <strong className="text-mk-secondary">{shopName}</strong> in 2003,
             she has led a journey of excellence, blending traditional care with
             modern artistry.
             <br />
