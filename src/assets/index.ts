@@ -24,6 +24,13 @@ import MehndiDesigning from "./services/Mehndi Designing.jpeg"
 import Pedicure from "./services/Pedicure.jpeg"
 import SareeDraping from "./services/Saree drapping.jpeg"
 
+// socials
+import Facebook from "./socials/facebook.png"
+import Youtube from "./socials/youtube.png"
+import Instagram from "./socials/instagram.png"
+import Gmail from "./socials/gmail.png"
+import Whatsapp from "./socials/whatsapp.png"
+
 // extras
 import Girl from "./Girl.png"
 
@@ -49,4 +56,9 @@ export {
   MK_Poster,
   Pedicure,
   SareeDraping,
+  Facebook,
+  Youtube,
+  Instagram,
+  Gmail,
+  Whatsapp,
 }

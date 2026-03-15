@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"
 import About from "./contents/about/About"
+import Contact from "./contents/contact/Contact"
 import Hero from "./contents/hero/Hero"
 import Services from "./contents/services/Services"
 
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <Services />
         <About />
+        <Contact />
       </main>
     </>
   )
