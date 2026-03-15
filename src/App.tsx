@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import About from "./contents/about/About"
 import Contact from "./contents/contact/Contact"
@@ -14,6 +15,7 @@ function App() {
         <About />
         <Contact />
       </main>
+      <Footer />
     </>
   )
 }
