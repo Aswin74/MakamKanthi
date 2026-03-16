@@ -43,11 +43,11 @@
   }
 
   h2 {
-    @apply text-[min(10vw,4.5rem)] font-extrabold tracking-wide;
+    @apply text-[min(7.6vw,4.5rem)] font-extrabold tracking-wide;
   }
 
   h3 {
-    @apply text-[min(7.5vw,3rem)] font-semibold tracking-wide;
+    @apply text-[min(6.5vw,3rem)] font-semibold tracking-wide;
   }
 
   p {

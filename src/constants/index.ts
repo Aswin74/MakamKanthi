@@ -12,6 +12,14 @@ import {
   Pedicure,
   SareeDraping,
   Whatsapp,
+  Work1,
+  Work2,
+  Work3,
+  Work4,
+  Work5,
+  Work6,
+  Work7,
+  Work8,
   Youtube,
 } from "../assets"
 
@@ -65,4 +73,31 @@ export const CONTACT_NUMBERS: {
 }[] = [
   { text: "+91 96050 22108", phoneTo: "tel:+919605022108" },
   { text: "+91 75105 86059", phoneTo: "tel:+917510586059" },
+]
+
+export const RECENT_WORKS = [
+  {
+    src: Work1,
+  },
+  {
+    src: Work2,
+  },
+  {
+    src: Work3,
+  },
+  {
+    src: Work4,
+  },
+  {
+    src: Work5,
+  },
+  {
+    src: Work6,
+  },
+  {
+    src: Work7,
+  },
+  {
+    src: Work8,
+  },
 ]
