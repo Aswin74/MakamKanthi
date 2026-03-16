@@ -24,6 +24,16 @@ import MehndiDesigning from "./services/Mehndi Designing.jpeg"
 import Pedicure from "./services/Pedicure.jpeg"
 import SareeDraping from "./services/Saree drapping.jpeg"
 
+// recent works
+import Work1 from "./works/Work (1).jpeg"
+import Work2 from "./works/Work (2).jpeg"
+import Work3 from "./works/Work (3).jpeg"
+import Work4 from "./works/Work (4).jpeg"
+import Work5 from "./works/Work (5).jpeg"
+import Work6 from "./works/Work (6).jpeg"
+import Work7 from "./works/Work (7).jpeg"
+import Work8 from "./works/Work (8).jpeg"
+
 // socials
 import Facebook from "./socials/facebook.png"
 import Youtube from "./socials/youtube.png"
@@ -56,6 +66,14 @@ export {
   MK_Poster,
   Pedicure,
   SareeDraping,
+  Work1,
+  Work2,
+  Work3,
+  Work4,
+  Work5,
+  Work6,
+  Work7,
+  Work8,
   Facebook,
   Youtube,
   Instagram,
